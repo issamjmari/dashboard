@@ -3,7 +3,8 @@ import './footer.scss'
 export default function Footer() {
   return (
     <div className="footer">
-        Footer
+        <span>lamadmin</span>
+        <span>© lamadmin dashboard</span>
     </div>
   )
 }
