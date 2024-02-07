@@ -17,15 +17,6 @@ const columns: GridColDef[] = [
       }
   },
   {
-      field: "actions", headerName: "Actions", width: 100, type: "string",
-      renderCell: (params) => {
-          return <div className="action">
-              <div className="view">view</div>
-              <div className="delete">delete</div>
-          </div>
-      }
-  },
-  {
       field:"status",
       headerName: "status",
       type: "boolean",

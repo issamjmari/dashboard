@@ -11,6 +11,8 @@ import Users from "./pages/Users/Users";
 import Products from "./pages/Products/Products";
 import Home from "./pages/Home/Home";
 import './styles/global.scss'
+import User from "./pages/user/user";
+import Product from "./pages/product/product";
 
 function App() {
   const Layout = () => {
@@ -46,6 +48,14 @@ function App() {
         {
           path: "/",
           element: <Home />
+        },
+        {
+          path: "/users/:id",
+          element: <User />
+        },
+        {
+          path: "/products/:id",
+          element: <Product />
         }
       ]
     }

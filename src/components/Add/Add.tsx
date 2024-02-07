@@ -21,7 +21,7 @@ export default function Add(props: Props) {
                         <input type={column.type} placeholder={column.field} />
                     </div>
                 ))
-                }
+            }
             </form>
             <button className='send'>Send</button>
         </div>
