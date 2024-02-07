@@ -1,8 +1,13 @@
 @import '../../styles/variables.scss';
+@import '../../styles/responsive.scss';
 
 .single {
     display: flex;
 
+    @include lg {
+        flex-direction: column;
+        gap: 20px;
+    }
     .view {
         flex: 1;
         .TopInfo {
@@ -45,12 +50,24 @@
         height: 0;
         margin-bottom: 20px 0px;
         border: 0.5px solid gray;
+
+        @include md {
+            flex-direction: column;
+            gap: 20px;
+            display: none;
+        }
     }
 
     .chart {
         margin-top: 50px;
         width: 80%;
         height: 400px;
+
+        @include md {
+            flex-direction: column;
+            gap: 20px;
+            display: none;
+        }
     }
 
     .activities {
@@ -84,6 +101,9 @@
                     min-width: 480px;
                     padding: 15px;
                     background-color: #f45b6810;
+                    @include md {
+                        width: 250px;
+                    }
 
                     p {
                         margin-bottom: 5px;

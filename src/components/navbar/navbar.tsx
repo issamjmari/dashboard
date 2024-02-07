@@ -8,9 +8,9 @@ export default function Navbar() {
             <span>lamadmin</span>
         </div>
         <div className='icons'>
-          <img src='/search.svg' alt="logo"/>
-          <img src='/app.svg' alt="logo"/>
-          <img src='/expand.svg' alt="logo"/>
+          <img src='/search.svg' alt="logo" className='icon'/>
+          <img src='/app.svg' alt="logo" className='icon'/>
+          <img src='/expand.svg' alt="logo" className='icon'/>
           <div className='notification'>
             <img src='/notifications.svg' alt="logo"/>
             <span>1</span>
