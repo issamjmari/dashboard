@@ -17,17 +17,26 @@ import Product from "./pages/product/product";
 function App() {
   const Layout = () => {
       return (
-        <div className="main">
-            <Navbar />
-            <div className="container">
-                <div className="menuContainer">
-                    <Menu />
-                </div>
-                <div className="contentContainer">
-                  <Outlet />
-                </div>
-            </div>
-            <Footer />
+        <div className="dashbord">
+        
+            <div className="main">
+                  <div>
+                    <Navbar />
+                  </div>
+                  <hr></hr>
+                  <div className="container">
+                        <div className="menuContainer">
+                            <Menu />
+                        </div>
+                        <div className="contentContainer">
+                          <Outlet />
+                        </div>
+                  </div>
+                  <hr></hr>
+                  <div>
+                    <Footer />
+                  </div>
+              </div>
         </div>
       ) 
   }
