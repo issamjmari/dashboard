@@ -14,7 +14,6 @@ a {
 
 body{
   background-color: $main-bg;
-
 }
 
 
@@ -22,12 +21,14 @@ body{
   font-family: "Inter", sans-serif;
   background-color: $main-bg;
   color: $main-color;
-  @media screen and (min-width: (1200px)) {
-    height: 94vh;
-    width: 100vw;
-    background-color: $main-bg;
+  .contentContainer {
+
+    @media screen and (min-width: (1200px)) {
+      height: 94vh;
+      width: 100vw;
+      background-color: $main-bg;
+    }
   }
-  width: 100vw;
   hr {
     border: 1px solid $soft-bg;
   }
@@ -40,7 +41,7 @@ body{
 
 .menuContainer {
   width: 250px;
-  padding: 3% 20px;
+  padding: 5% 20px;
 
   border-right: 1px solid $soft-bg;
 
@@ -51,6 +52,6 @@ body{
 
 .contentContainer {
   width: 100%;
-  padding: 3% 20px;
+  padding: 5% 20px;
   height: 100%;
 }
