@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div className="footer">
         <span>lamadmin</span>
-        <span>© lamadmin dashboard</span>
+        <span>© activity dashboard</span>
     </div>
   )
 }
