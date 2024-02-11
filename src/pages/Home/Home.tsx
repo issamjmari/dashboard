@@ -3,7 +3,6 @@ import BigChartBox from '../../components/BigChartBox/BigChartBox'
 import TopBar from '../../components/TopBar/TopBar'
 import CharBox from '../../components/chartBox/charBox'
 import PieChartBox from '../../components/pieChart/pieChart'
-import PieChart from '../../components/pieChart/pieChart'
 import { barChartBoxRevenue, barChartBoxVisit, chartBoxConversion, chartBoxProduct, chartBoxRevenue, chartBoxUser } from '../../data'
 import './Home.scss'
 

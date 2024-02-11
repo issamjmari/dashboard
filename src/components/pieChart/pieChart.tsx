@@ -1,4 +1,3 @@
-import React from 'react'
 import { Cell, Pie, PieChart, ResponsiveContainer } from 'recharts'
 import './pieChart.scss'
 
