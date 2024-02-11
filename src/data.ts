@@ -479,13 +479,13 @@ export const menu = [
   
   export const singleUser = {
     id: 1,
-    title: "John Doe",
-    img: "https://images.pexels.com/photos/17397364/pexels-photo-17397364.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    title: "Issam Jmari",
+    img: "https://cdn.intra.42.fr/users/1312e60531fd16557839bc942ae10856/ijmari.jpg",
     info: {
-      username: "Johndoe99",
-      fullname: "John Doe",
-      email: "johndoe@gmail.com",
-      phone: "123 456 789",
+      username: "IssamJmari098",
+      fullname: "Issam Jmari",
+      email: "issamjmari098@gmail.com",
+      phone: "07 08 08 16 27",
       status: "verified",
     },
     chart: {
@@ -533,27 +533,27 @@ export const menu = [
     },
     activities: [
       {
-        text: "John Doe purchased Playstation 5 Digital Edition",
+        text: "Issam Jmari purchased Playstation 5 Digital Edition",
         time: "3 day ago",
       },
       {
-        text: "John Doe added 3 items into their wishlist",
+        text: "Issam Jmari added 3 items into their wishlist",
         time: "1 week ago",
       },
       {
-        text: "John Doe purchased Sony Bravia KD-32w800",
+        text: "Issam Jmari purchased Sony Bravia KD-32w800",
         time: "2 weeks ago",
       },
       {
-        text: "John Doe reviewed a product",
+        text: "Issam Jmari reviewed a product",
         time: "1 month ago",
       },
       {
-        text: "John Doe added 1 items into their wishlist",
+        text: "Issam Jmari added 1 items into their wishlist",
         time: "1 month ago",
       },
       {
-        text: "John Doe reviewed a product",
+        text: "Issam Jmari reviewed a product",
         time: "2 months ago",
       },
     ],
